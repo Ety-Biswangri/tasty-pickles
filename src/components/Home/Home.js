@@ -4,10 +4,10 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <div>
+        <div style={{ margin: "30px" }}>
             <div className='home-page-first-portion'>
                 <div className='home-page-first-portion-left'>
-                    <div style={{ marginLeft: '100px' }}>
+                    <div>
                         <h1>Your Favourite Pickle</h1>
                         <h2 style={{ marginBottom: '13px' }}>Mango Pickle! The Taste of Nostalgia</h2>
                         <p>

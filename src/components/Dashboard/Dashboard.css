@@ -1,0 +1,21 @@
+.chart {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    margin: 50px 50px 0px 50px;
+}
+
+.chart .chart-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.chart .chart-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}

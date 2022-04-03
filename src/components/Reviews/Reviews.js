@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const Reviews = () => {
 
     const [reviews, setReviews] = useState([]);
-    console.log(reviews);
+    // console.log(reviews);
 
     useEffect(() => {
         fetch('review.json')
@@ -14,6 +14,7 @@ const Reviews = () => {
     return (
         <div>
             <h2>What Our Customers Say!</h2>
+
         </div>
     );
 };
