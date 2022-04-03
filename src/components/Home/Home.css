@@ -28,9 +28,13 @@
     padding: 1rem;
     font-size: 1rem;
     border: none;
-    background-color: rgb(37, 150, 154);
+    background-color: rgba(45, 45, 155, 0.746);
     color: white;
     border-radius: 1rem;
+}
+
+.home-page-first-portion-left button:hover {
+    background-color: rgba(21, 21, 135, 0.746);
 }
 
 .home-page-first-portion-right {
