@@ -2,4 +2,9 @@
 
 Live Website Link: [Tasty Pickles](https://tasty-pickles.netlify.app/).
 
-## Available Scripts
+## Project Features:
+
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
