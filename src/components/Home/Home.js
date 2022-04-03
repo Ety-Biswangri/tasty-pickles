@@ -1,5 +1,5 @@
 import React from 'react';
-import pickles from '../../Assets/Images/pickles.jpg';
+import pickles1 from '../../Assets/Images/pickles1.jpg';
 import './Home.css';
 
 const Home = () => {
@@ -8,14 +8,16 @@ const Home = () => {
             <div className='home-page-first-portion'>
                 <div className='home-page-first-portion-left'>
                     <div style={{ marginLeft: '100px' }}>
-                        <h1>Your Favourite Pickles</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
+                        <h1>Your Favourite Pickle</h1>
+                        <h2 style={{ marginBottom: '13px' }}>Mango Pickle! The Taste of Nostalgia</h2>
+                        <p>
+                            Product Description: Mango, Mustard oil, Spices, Herbs and Salt.
                         </p>
                         <button>Explore Now</button>
                     </div>
                 </div>
                 <div className='home-page-first-portion-right'>
-                    <img src={pickles} alt="pickleImage" />
+                    <img src={pickles1} alt="pickleImage" />
                 </div>
             </div>
             <div className='home-page-second-portion'>
