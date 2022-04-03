@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Talley Garrett",
+        "review": "Nulla quis cupidatat ea laboris non sint. Laboris ex ea exercitation esse sunt voluptate enim irure.",
+        "ratings": "4 Star"
+    },
+    {
+        "id": "2",
+        "name": "Lenore Buckley",
+        "review": "Enim esse officia dolor eiusmod cupidatat enim in ullamco ad. Magna adipisicing ea ex enim laboris.",
+        "ratings": "4.5 Star"
+    },
+    {
+        "id": "3",
+        "name": "Jewell Barton",
+        "review": "Quis ipsum do occaecat sit voluptate nulla dolor excepteur. Adipisicing do velit cillum commodo.",
+        "ratings": "5 Star"
+    },
+    {
+        "id": "4",
+        "name": "Alta Holden",
+        "review": "Sit nisi veniam culpa consectetur ad nostrud labore eu eiusmod. Mollit aliqua reprehenderit duis laborum fugiat anim enim est est ut dolore et nisi.",
+        "ratings": "5 Star"
+    },
+    {
+        "id": "5",
+        "name": "Nell Carr",
+        "review": "Aliqua fugiat duis cillum culpa ex eiusmod nisi do nulla laboris ut. Ipsum est laboris reprehenderit non eiusmod ut duis.",
+        "ratings": "5 Star"
+    },
+    {
+        "id": "6",
+        "name": "Olson Charles",
+        "review": "Laboris enim Lorem dolor id ea mollit incididunt culpa aute excepteur sunt pariatur. Quis ex ex ut in deserunt deserunt veniam nostrud ex pariatur ea voluptate eiusmod.",
+        "ratings": "5 Star"
+    }
+]

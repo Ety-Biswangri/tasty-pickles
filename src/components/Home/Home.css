@@ -1,0 +1,52 @@
+.home-page-first-portion {
+    display: grid;
+    grid-template-columns: 2.2fr 2fr;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    height: 70vh;
+}
+
+.home-page-first-portion-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-first-portion-left h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    color: rgb(25, 25, 112);
+}
+
+.home-page-first-portion-left p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.home-page-first-portion-left button {
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(37, 150, 154);
+    color: white;
+    border-radius: 1rem;
+}
+
+.home-page-first-portion-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-first-portion-right img {
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.home-page-second-portion h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
