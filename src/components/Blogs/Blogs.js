@@ -4,33 +4,35 @@ import './Blogs.css';
 const Blogs = () => {
     return (
         <div className='blogs'>
-            <h1>Core Concepts</h1>
+            <h1>Core Concepts of Web Development</h1>
             <div className='blogs-container'>
                 <div className='single-blog'>
                     <div className='single-blog-inside'>
                         <h2>What is Semantic Tag in HTML?</h2>
                         <p>
-                            <li>
-                                Semantic Tag properly describes the meaning of the HTML element.
-                            </li>
-                            <li>
-                                Semantic tags help the browsers and web developers to understand the purpose of the content.
-                            </li>
-                            <li>
-                                <b>Header</b>, <b>Nav</b>, <b>Section</b>, <b>Article</b>, <b>Footer</b> are the semantic tag names.
-                            </li>
-                            <li>
-                                It also helps search engines to read the web page correctly and find the accurate information as fast as possible.
-                            </li>
-                            <li>
-                                Thus, Semantic Tags in HTML strengthen the overall structure of web pages and provides a greater user experience.
-                            </li>
+                            <ul>
+                                <li>
+                                    Semantic Tag properly describes the meaning of the HTML element.
+                                </li>
+                                <li>
+                                    Semantic tags help the browsers and web developers to understand the purpose of the content.
+                                </li>
+                                <li>
+                                    <b>Header</b>, <b>Nav</b>, <b>Section</b>, <b>Article</b>, <b>Footer</b> are the semantic tag names.
+                                </li>
+                                <li>
+                                    It also helps search engines to read the web page correctly and find the accurate information as fast as possible.
+                                </li>
+                                <li>
+                                    Thus, Semantic Tags in HTML strengthen the overall structure of web pages and provides a greater user experience.
+                                </li>
+                            </ul>
                         </p>
                     </div>
                 </div>
                 <div className='single-blog'>
                     <div className='single-blog-inside'>
-                        <h2>What Are The Differences Among Inline, Block and Inline-block Elements?</h2>
+                        <h2>What are the Differences Among Inline, Block and Inline-block Elements?</h2>
                         <p>
                             <ul>
                                 <li>

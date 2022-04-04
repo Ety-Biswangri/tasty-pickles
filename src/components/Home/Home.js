@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='home-page-second-portion'>
-                <h2>Customer Reviews</h2>
+                <h2 style={{ color: 'rgb(25, 25, 112)' }}>Customer Reviews</h2>
                 <div className='home-page-review-container'>
                     {
                         reviewSlice.map((review) => <div key={review.id} className="home-page-single-review-container">
