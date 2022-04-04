@@ -22,9 +22,10 @@
 
 .single-blog .single-blog-inside {
     border: 1px solid gray;
-    padding: 20px;
+    padding: 30px;
     text-align: justify;
     font-size: 18px;
+    height: 500px;
 }
 
 .single-blog .single-blog-inside h2 {
