@@ -1,17 +1,11 @@
-import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import pickles1 from '../../Assets/Images/pickles1.jpg';
 import useReviews from '../../hooks/useReviews';
-import Reviews from '../Reviews/Reviews';
 import './Home.css';
 
 const Home = () => {
-    const [reviews, setReviews] = useReviews();
-    // console.log(reviews);
-
+    const [reviews] = useReviews();
     const reviewSlice = reviews.slice(0, 3);
-    console.log(reviewSlice);
-
     const navigate = useNavigate();
 
     return (
@@ -22,7 +16,7 @@ const Home = () => {
                         <h1>Your Favourite Pickle</h1>
                         <h2 style={{ marginBottom: '13px' }}>Mango Pickle! The Taste of Nostalgia</h2>
                         <p>
-                            Product Description: Mango, Mustard oil, Spices, Herbs and Salt.
+                            Product Ingredients: Mango, Mustard oil, Spices, Herbs and Salt.
                         </p>
                         <button>Explore Now</button>
                     </div>
@@ -33,12 +27,26 @@ const Home = () => {
             </div>
             <div className='home-page-second-portion'>
                 <h2>Customer Reviews</h2>
-                {
-                    reviewSlice.map((review) => <Reviews ></Reviews>)
-                }
-                <button onClick={() => navigate('/reviews')}>Click for more reviews</button>
+                <div className='home-page-review-container'>
+                    {
+                        reviewSlice.map((review) => <div key={review.id} className="home-page-single-review-container">
+                            <div className='home-page-single-review'>
+                                <h3>{review.name}</h3>
+                                <div style={{ marginBottom: '35px' }}>
+                                    <blockquote>
+                                        {review.review}
+                                    </blockquote>
+                                </div>
+                                <p><small style={{ fontSize: '14px' }}>Ratings: {review.ratings}</small></p>
+                            </div>
+                        </div>)
+                    }
+                </div>
+                <div className='button'>
+                    <button onClick={() => navigate('/reviews')}>See All Reviews</button>
+                </div>
             </div>
-        </div>
+        </div >
     );
 };
 

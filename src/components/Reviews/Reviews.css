@@ -1,0 +1,71 @@
+.review-portion h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 40px;
+    grid-gap: 30px;
+    margin-left: 80px;
+    height: 300px;
+}
+
+.single-review-container {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border: none;
+}
+
+.single-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.single-review h3 {
+    font-size: 25px;
+    margin: 20px 0px 25px 0px;
+}
+
+blockquote {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.1;
+    position: relative;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+blockquote:before {
+    content: '“';
+    color: rgb(25, 25, 112);
+    font-size: 60px;
+    position: absolute;
+    top: -13px;
+    left: -7px;
+}
+
+.review-portion .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-portion .button button {
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    background-color: rgba(45, 45, 155, 0.746);
+    color: white;
+    border-radius: 1rem;
+}
+
+.review-portion .button button:hover {
+    background-color: rgba(21, 21, 135, 0.746);
+}
