@@ -31,13 +31,14 @@ const Home = () => {
                     {
                         reviewSlice.map((review) => <div key={review.id} className="home-page-single-review-container">
                             <div className='home-page-single-review'>
+                                <img src={review.img} alt="personImage" />
                                 <h3>{review.name}</h3>
                                 <div style={{ marginBottom: '35px' }}>
                                     <blockquote>
                                         {review.review}
                                     </blockquote>
                                 </div>
-                                <p><small style={{ fontSize: '14px' }}>Ratings: {review.ratings}</small></p>
+                                <p><small style={{ fontSize: '16px', fontWeight: '600' }}>Ratings: {review.ratings}</small></p>
                             </div>
                         </div>)
                     }

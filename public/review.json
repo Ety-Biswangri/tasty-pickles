@@ -3,36 +3,42 @@
         "id": "1",
         "name": "Talley Garrett",
         "review": " I had ordered mango pickle and it was really awesome. Highly recommended.",
-        "ratings": "5 out of 5"
+        "ratings": "5 out of 5",
+        "img": "https://raw.githubusercontent.com/Ety-Biswangri/images/8b302d495b291325837e641e40e45d18714b7d70/person1.jpg"
     },
     {
         "id": "2",
         "name": "Lenore Buckley",
         "review": "The taste of the pickle is so good. But price of the product is so high.",
-        "ratings": "4.5 out of 5"
+        "ratings": "4.5 out of 5",
+        "img": "https://raw.githubusercontent.com/Ety-Biswangri/images/main/person2.jpg"
     },
     {
         "id": "3",
         "name": "Jewell Barton",
         "review": "Glass bottle, traditional recipe! What a combination! Thanks a lot.",
-        "ratings": "5 out of 5"
+        "ratings": "5 out of 5",
+        "img": "https://raw.githubusercontent.com/Ety-Biswangri/images/main/person3.jpg"
     },
     {
         "id": "4",
         "name": "Alta Holden",
         "review": "Authentic taste. Excellent pickles. But extremely spicy and expensive.",
-        "ratings": "4.5 out of 5"
+        "ratings": "4.5 out of 5",
+        "img": "https://raw.githubusercontent.com/Ety-Biswangri/images/main/person4.jpg"
     },
     {
         "id": "5",
         "name": "Nell Carr",
         "review": "North, South, East or West, Mango Pickle is the best. Loved it.",
-        "ratings": "5 out of 5"
+        "ratings": "5 out of 5",
+        "img": "https://raw.githubusercontent.com/Ety-Biswangri/images/main/person5.jpg"
     },
     {
         "id": "6",
         "name": "Olson Charles",
         "review": "Taste was really awesome, loved the packaging of the product.",
-        "ratings": "5 out of 5"
+        "ratings": "5 out of 5",
+        "img": "https://raw.githubusercontent.com/Ety-Biswangri/images/main/person6.jpg"
     }
 ]
