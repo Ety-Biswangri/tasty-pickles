@@ -20,7 +20,7 @@
 .single-review-container {
     display: flex;
     justify-content: center;
-    width: 300px;
+    width: 90%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border: none;
     background-color: ghostwhite;
@@ -40,7 +40,7 @@
 }
 
 .single-review h3 {
-    font-size: 25px;
+    font-size: 1.5rem;
     margin: 20px 0px 25px 0px;
 }
 
