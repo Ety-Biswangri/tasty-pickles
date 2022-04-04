@@ -2,8 +2,7 @@
     display: grid;
     grid-template-columns: 2.2fr 2fr;
     margin-top: 50px;
-    margin-bottom: 60px;
-    height: 70vh;
+    margin-bottom: 80px;
 }
 
 .home-page-first-portion-left {
@@ -58,8 +57,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 40px;
-    grid-gap: 30px;
-    margin-left: 80px;
+    /* grid-gap: 10px; */
+    /* margin-left: 80px; */
 }
 
 .home-page-single-review-container {
@@ -68,6 +67,7 @@
     width: 300px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border: none;
+    background-color: ghostwhite;
 }
 
 .home-page-single-review-container:hover {

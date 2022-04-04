@@ -13,8 +13,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 70px;
-    grid-gap: 60px;
-    margin-left: 80px;
+    grid-row-gap: 50px;
+    /* margin-left: 80px; */
 }
 
 .single-review-container {
@@ -23,6 +23,7 @@
     width: 300px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border: none;
+    background-color: ghostwhite;
 }
 
 .single-review-container:hover {

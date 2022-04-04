@@ -5,10 +5,12 @@ import './Header.css';
 const Header = () => {
     return (
         <div className='header-links'>
-            <Link to="/home">Home</Link>
-            <Link to="/reviews">Reviews</Link>
-            <Link to="/dashboard">Dashboard</Link>
-            <Link to="/blogs">Blogs</Link>
+            <div>
+                <Link to="/home">Home</Link>
+                <Link to="/reviews">Reviews</Link>
+                <Link to="/dashboard">Dashboard</Link>
+                <Link to="/blogs">Blogs</Link>
+            </div>
         </div>
     );
 };
