@@ -1,6 +1,6 @@
 # Project Name: Tasty Pickles
 
-Live Website Link: [Tasty Pickles](https://tasty-pickles.netlify.app/).
+Live Website Link: [Tasty Pickles](https://tasty-pickles.netlify.app/)
 
 ## Project Features:
 
